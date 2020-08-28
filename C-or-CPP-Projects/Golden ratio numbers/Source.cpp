@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
-string addBigNumbers(String number1, String number2) {
-	String sum = "";
+string addBigNumbers(string number1, string number2) {
+	string sum = "";
 	unsigned long long int i = 0;
 	bool carry = false;
 	while (i < number1.length() || i < number2.length()) {
 		if (i >= number1.length()) {
-			intNumber1 = 0;
+			int intNumber1 = 0;
+		}
+		else {
+			int intNumber1 = number1[i] - '0';
 		}
 		if (i >= number2.length()) {
-			intNumber2 = 0;
+			int intNumber2 = 0;
 		}
-		int intNumber1 = atoi(number1[i]);
-		int intNumber2 = atoi(number2[i]);
+		else {
+		int intNumber2 = number2[i] - '0';
+	}
 		int intSum = intNumber1 + intNumber2;
 		if (carry) {
 			intSum++;
@@ -21,13 +25,14 @@ string addBigNumbers(String number1, String number2) {
 		if (i = std::max(number1.length(), number2.length()) - 1 & intSum > 9) {
 			sum.std::string::insert(0, "1");
 		}
-		if (intSum > 9) {
+		else if (intSum > 9) {
 			intSum -= 10;
 			carry = true;
 		}
 		else {
 			carry = false;
 		}
+		if ()
 		sum.std::string::append(intSum);
 
 
