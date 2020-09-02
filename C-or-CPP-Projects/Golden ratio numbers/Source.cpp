@@ -5,18 +5,14 @@ string addBigNumbers(string number1, string number2) {
 	unsigned long long int i = 0;
 	bool carry = false;
 	while (i < number1.length() || i < number2.length()) {
-		if (i >= number1.length()) {
-			int intNumber1 = 0;
-		}
-		else {
-			int intNumber1 = number1[i] - '0';
+		int intNumber1 = 0;
+		int intNumber2 = 0;
+		if (i < number1.length()) {
+			intNumber1 = number1[i] - '0';
 		}
 		if (i >= number2.length()) {
-			int intNumber2 = 0;
+			intNumber2 = number2[i] - '0';
 		}
-		else {
-		int intNumber2 = number2[i] - '0';
-	}
 		int intSum = intNumber1 + intNumber2;
 		if (carry) {
 			intSum++;
@@ -33,7 +29,7 @@ string addBigNumbers(string number1, string number2) {
 			carry = false;
 		}
 		if ()
-		sum.std::string::append(intSum);
+			sum.std::string::append(intSum);
 
 
 		++i;
