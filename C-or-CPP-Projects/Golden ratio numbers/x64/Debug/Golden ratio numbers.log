@@ -1,4 +1,5 @@
 ﻿  Source.cpp
-C:\Users\benbw\OneDrive\Dokument\GitHub\C-or-CPP-Projects\C-or-CPP-Projects\Golden ratio numbers\Source.cpp(45,26): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
-C:\Users\benbw\OneDrive\Dokument\GitHub\C-or-CPP-Projects\C-or-CPP-Projects\Golden ratio numbers\Source.cpp(97,12): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
-  Golden ratio numbers.vcxproj -> C:\Users\benbw\OneDrive\Dokument\GitHub\C-or-CPP-Projects\C-or-CPP-Projects\x64\Debug\Golden ratio numbers.exe
+C:\Users\benbw\source\repos\bwallker\C-or-CPP-Projects\C-or-CPP-Projects\Golden ratio numbers\Source.cpp(13,9): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\benbw\source\repos\bwallker\C-or-CPP-Projects\C-or-CPP-Projects\Golden ratio numbers\Source.cpp(16,9): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\benbw\source\repos\bwallker\C-or-CPP-Projects\C-or-CPP-Projects\Golden ratio numbers\Source.cpp(24,26): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\benbw\source\repos\bwallker\C-or-CPP-Projects\C-or-CPP-Projects\Golden ratio numbers\Source.cpp(79,12): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
